@@ -97,12 +97,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
   height: 100%;
+  background: url(../img/lightbulb-in-dark.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -117,15 +119,18 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: whitesmoke;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: .6em;
+  background-color: #4d004d;
   height: 300px;
   display: flex;
-  width: 30%;
+  width: 25%;
   justify-content: center;
   align-items: center;
+  padding: 15px;
+  border-style:double;
+  border-color: darkkhaki
 }
 
 
