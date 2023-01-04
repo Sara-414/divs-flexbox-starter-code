@@ -98,7 +98,7 @@ textarea {
 
 html {
   height: 100%;
-  background: url(../img/lightbulb-in-dark.jpg) no-repeat;
+  background: url(../img/starry-sky.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -106,9 +106,41 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1.20em;
   height: 100%;
 }
+
+header {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkkhaki;
+  border-style:double;
+  border-color: darkkhaki;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 5px 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+main {
+    background-color: #330033;
+    height: 250px;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    border-style: double;
+    border-color: darkkhaki;
+    margin-bottom: 5px;
+    padding: 0px 16px;
+    font-style: italic;
+  }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
@@ -119,20 +151,38 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: whitesmoke;
+  color: lightgray;
   line-height: 1.5em;
   font-size: .6em;
   background-color: #4d004d;
   height: 300px;
   display: flex;
-  width: 25%;
+  width: 27%;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 16px;
   border-style:double;
-  border-color: darkkhaki
+  border-color: darkkhaki;
 }
 
+footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkkhaki;
+    border-style:double;
+    border-color: darkkhaki;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: url(../img/star-lights.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 
 
